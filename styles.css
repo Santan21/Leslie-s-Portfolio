@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to bottom, #222, #000);
+    background: linear-gradient(to bottom, #0d0202, #000);
     color: #fff;
     overflow: hidden; /* This will prevent any potential scroll. */
 }
