@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: auto;
     height: 100vh;
     background: linear-gradient(to bottom, #171515, #000);
     color: black;
@@ -84,4 +85,17 @@ body {
 
 .social-icons a:nth-child(4) img {
     animation-delay: 2.5s;
+}
+
+@media (max-width: 768px) { 
+    body {
+        height: auto;
+        min-height: 100vh; 
+    }
+
+    .profile-card {
+        height: auto;
+        min-height: 100vh; 
+        padding-bottom: 20px;  /* Extra padding can ensure content doesn't get cut off at the bottom. */
+    }
 }
