@@ -8,7 +8,7 @@ body {
     align-items: center;
     height: 100vh;
     background: linear-gradient(to bottom, #171515, #000);
-    color: #fff;
+    color: black;
     overflow: hidden; /* This will prevent any potential scroll. */
 }
 
@@ -16,7 +16,7 @@ body {
     text-align: center;
     padding: 40px 60px;
     border-radius: 0; 
-    background-color: rgba(56, 12, 12, 0.508); 
+    background-color: white; 
     box-shadow: none; 
     width: 100vw; 
     height: 100vh; 
