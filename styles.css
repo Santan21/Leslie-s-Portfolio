@@ -12,6 +12,10 @@ body {
     overflow: hidden; /* This will prevent any potential scroll. */
 }
 
+.profile-card.dark {
+    background-color: #333;
+}
+
 .profile-card {
     text-align: center;
     padding: 40px 60px;
@@ -53,7 +57,7 @@ body {
 }
 
 .social-icons a:hover img {
-    transform: scale(1.5);
+    transform: scale(4.0);
 }
 @keyframes fadeIn {
     from {
@@ -75,5 +79,9 @@ body {
 }
 
 .social-icons a:nth-child(3) img {
+    animation-delay: 2.0s;
+}
+
+.social-icons a:nth-child(4) img {
     animation-delay: 2.5s;
 }
