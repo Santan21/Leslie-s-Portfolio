@@ -15,11 +15,11 @@ body {
 .profile-card {
     text-align: center;
     padding: 40px 60px;
-    border-radius: 0; /* Removed border radius to span the entire screen */
-    background-color: rgba(68, 68, 68, 0.9); /* You can adjust this to your preferred shade */
-    box-shadow: none; /* Removed the box shadow as it might not look good on full screen */
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
+    border-radius: 0; 
+    background-color: rgba(56, 12, 12, 0.508); 
+    box-shadow: none; 
+    width: 100vw; 
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
