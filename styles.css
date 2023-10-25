@@ -1,6 +1,6 @@
 body {
     font-family: 'Verdana', sans-serif;
-    font-size: 18px; /* Default font-size for the body; 800 is too large for font-size */
+    font-size: 13.5px; /* Default font-size for the body; 800 is too large for font-size */
     margin: 0;
     padding: 0;
     display: flex;
