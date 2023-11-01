@@ -87,6 +87,10 @@ body {
     animation-delay: 2.5s;
 }
 
+.social-icons a:nth-child(5) img {
+    animation-delay: 3.0s;
+}
+
 @media (max-width: 768px) { 
     body {
         height: auto;
